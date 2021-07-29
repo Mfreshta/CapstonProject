@@ -1,0 +1,167 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4141963500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "DesktopsPageObjectStepDef.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4043834100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User add HP LP 3065  from Desktops tab to the cart",
+        "description": "",
+        "id": "desktops-to-retail-website;user-add-hp-lp-3065--from-desktops-tab-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 946652900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91467401,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on Desktops tab",
+            "match": {
+              "location": "DesktopsPageObjectStepDef.user_click_on_Desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 784898899,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "DesktopsPageObjectStepDef.user_click_on_Show_all_desktops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86163101,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click  ADD TO CART option on ‘HP LP3065’ item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3065",
+                  "offset": 40
+                }
+              ],
+              "location": "DesktopsPageObjectStepDef.user_click_ADD_TO_CART_option_on_HP_LP_item(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1907471299,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User select quantity 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                }
+              ],
+              "location": "DesktopsPageObjectStepDef.user_select_quantity(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412186701,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click add to Cart button",
+            "match": {
+              "location": "DesktopsPageObjectStepDef.user_click_add_to_Cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263736200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should see a message ‘Success: you have added HP LP 3065 to your Shopping cart!’",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3065",
+                  "offset": 57
+                }
+              ],
+              "location": "DesktopsPageObjectStepDef.user_should_see_a_message_Success_you_have_added_HP_LP_to_your_Shopping_cart(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@AddHP"
+          }
+        ]
+      }
+    ],
+    "name": "Desktops to Retail website",
+    "description": "",
+    "id": "desktops-to-retail-website",
+    "keyword": "Feature",
+    "uri": "Features/desktops.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CompleteDesktopsTest"
+      }
+    ]
+  }
+]

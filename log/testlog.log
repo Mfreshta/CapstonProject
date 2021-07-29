@@ -1,0 +1,254 @@
+2021-07-08 19:27:25,737 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-07-08 19:27:31,233 - logger_File -INFO - Login to MyAccount   undefined
+2021-07-08 19:30:57,490 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-07-08 19:31:00,278 - logger_File -INFO - Login to MyAccount   undefined
+2021-07-08 20:31:33,310 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-07-08 20:31:37,226 - logger_File -INFO - Retail Website is opened
+2021-07-08 20:31:37,568 - logger_File -INFO - User clicked on MyAccount
+2021-07-08 20:31:37,825 - logger_File -INFO - User Clicked on Login
+2021-07-08 20:31:37,894 - logger_File -INFO - user entered email
+2021-07-08 20:31:37,964 - logger_File -INFO - user entered password
+2021-07-08 20:31:38,477 - logger_File -INFO - user clicked on login button
+2021-07-08 20:31:43,639 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-08 20:31:44,272 - logger_File -INFO - Login to MyAccount   passed
+2021-07-08 20:42:25,491 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-07-08 20:42:28,956 - logger_File -INFO - Retail Website is opened
+2021-07-08 20:42:29,270 - logger_File -INFO - User clicked on MyAccount
+2021-07-08 20:42:29,468 - logger_File -INFO - User Clicked on Login
+2021-07-08 20:42:29,532 - logger_File -INFO - user entered email
+2021-07-08 20:42:29,593 - logger_File -INFO - user entered password
+2021-07-08 20:42:30,107 - logger_File -INFO - user clicked on login button
+2021-07-08 20:42:35,278 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-08 20:42:35,901 - logger_File -INFO - Login to MyAccount   passed
+2021-07-08 20:56:39,895 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-07-08 20:56:45,050 - logger_File -INFO - Retail Website is opened
+2021-07-08 20:56:45,348 - logger_File -INFO - User clicked on MyAccount
+2021-07-08 20:56:45,571 - logger_File -INFO - User Clicked on Login
+2021-07-08 20:56:45,666 - logger_File -INFO - user entered email
+2021-07-08 20:56:45,731 - logger_File -INFO - user entered password
+2021-07-08 20:56:46,375 - logger_File -INFO - user clicked on login button
+2021-07-08 20:56:51,539 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-08 20:56:52,195 - logger_File -INFO - Login to MyAccount   passed
+2021-07-08 20:57:04,703 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-07-08 20:57:15,681 - logger_File -INFO - Retail Website is opened
+2021-07-08 20:57:15,993 - logger_File -INFO - User clicked on MyAccount
+2021-07-08 20:57:16,225 - logger_File -INFO - User Clicked on Login
+2021-07-08 20:57:16,307 - logger_File -INFO - user entered email
+2021-07-08 20:57:16,376 - logger_File -INFO - user entered password
+2021-07-08 20:57:17,270 - logger_File -INFO - user clicked on login button
+2021-07-08 20:57:22,428 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-08 20:57:23,067 - logger_File -INFO - Login to MyAccount   passed
+2021-07-08 21:43:18,704 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-07-08 21:43:34,767 - logger_File -INFO - Retail Website is opened
+2021-07-08 21:43:35,774 - logger_File -INFO - User clicked on MyAccount
+2021-07-08 21:43:36,297 - logger_File -INFO - User Clicked on Login
+2021-07-08 21:43:38,898 - logger_File -INFO - Login to MyAccount   undefined
+2021-07-08 21:46:05,037 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-07-08 21:46:11,945 - logger_File -INFO - Retail Website is opened
+2021-07-08 21:46:12,672 - logger_File -INFO - User clicked on MyAccount
+2021-07-08 21:46:13,049 - logger_File -INFO - User Clicked on Login
+2021-07-08 21:46:13,407 - logger_File -INFO - user entered email
+2021-07-08 21:46:13,561 - logger_File -INFO - user entered password
+2021-07-08 21:46:14,392 - logger_File -INFO - user clicked on login button
+2021-07-08 21:46:21,401 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-08 21:46:23,154 - logger_File -INFO - Login to MyAccount   passed
+2021-07-12 19:28:35,949 - logger_File -INFO - Scenario Login to MyAccount with Multiple users Started
+2021-07-12 19:28:51,162 - logger_File -INFO - Retail Website is opened
+2021-07-12 19:28:52,665 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 19:28:53,120 - logger_File -INFO - User Clicked on Login
+2021-07-12 19:28:53,501 - logger_File -INFO - user entered email
+2021-07-12 19:28:53,763 - logger_File -INFO - user entered password
+2021-07-12 19:28:54,698 - logger_File -INFO - user clicked on login button
+2021-07-12 19:28:59,865 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-12 19:29:02,132 - logger_File -INFO - Login to MyAccount with Multiple users   passed
+2021-07-12 19:29:02,167 - logger_File -INFO - Scenario Login to MyAccount with Multiple users Started
+2021-07-12 19:29:07,435 - logger_File -INFO - Retail Website is opened
+2021-07-12 19:29:08,089 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 19:29:08,594 - logger_File -INFO - User Clicked on Login
+2021-07-12 19:29:08,836 - logger_File -INFO - user entered email
+2021-07-12 19:29:09,152 - logger_File -INFO - user entered password
+2021-07-12 19:29:09,906 - logger_File -INFO - user clicked on login button
+2021-07-12 19:29:15,093 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-12 19:29:16,211 - logger_File -INFO - Login to MyAccount with Multiple users   passed
+2021-07-12 19:29:16,216 - logger_File -INFO - Scenario Login to MyAccount with Multiple users Started
+2021-07-12 19:29:22,602 - logger_File -INFO - Retail Website is opened
+2021-07-12 19:29:23,827 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 19:29:24,395 - logger_File -INFO - User Clicked on Login
+2021-07-12 19:29:24,578 - logger_File -INFO - user entered email
+2021-07-12 19:29:24,882 - logger_File -INFO - user entered password
+2021-07-12 19:29:25,751 - logger_File -INFO - user clicked on login button
+2021-07-12 19:29:30,892 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-12 19:29:32,035 - logger_File -INFO - Login to MyAccount with Multiple users   passed
+2021-07-12 19:37:53,258 - logger_File -INFO - Scenario Login to MyAccount with Multiple users Started
+2021-07-12 19:38:00,480 - logger_File -INFO - Retail Website is opened
+2021-07-12 19:38:01,374 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 19:38:02,076 - logger_File -INFO - User Clicked on Login
+2021-07-12 19:38:02,415 - logger_File -INFO - user entered email
+2021-07-12 19:38:02,570 - logger_File -INFO - user entered password
+2021-07-12 19:38:03,342 - logger_File -INFO - user clicked on login button
+2021-07-12 19:38:08,501 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-12 19:38:09,773 - logger_File -INFO - Login to MyAccount with Multiple users   passed
+2021-07-12 19:38:09,779 - logger_File -INFO - Scenario Login to MyAccount with Multiple users Started
+2021-07-12 19:38:14,076 - logger_File -INFO - Retail Website is opened
+2021-07-12 19:38:14,642 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 19:38:14,983 - logger_File -INFO - User Clicked on Login
+2021-07-12 19:38:15,165 - logger_File -INFO - user entered email
+2021-07-12 19:38:15,352 - logger_File -INFO - user entered password
+2021-07-12 19:38:16,050 - logger_File -INFO - user clicked on login button
+2021-07-12 19:38:21,238 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-12 19:38:22,189 - logger_File -INFO - Login to MyAccount with Multiple users   passed
+2021-07-12 19:38:22,195 - logger_File -INFO - Scenario Login to MyAccount with Multiple users Started
+2021-07-12 19:38:27,003 - logger_File -INFO - Retail Website is opened
+2021-07-12 19:38:27,419 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 19:38:27,767 - logger_File -INFO - User Clicked on Login
+2021-07-12 19:38:27,982 - logger_File -INFO - user entered email
+2021-07-12 19:38:28,407 - logger_File -INFO - user entered password
+2021-07-12 19:38:29,401 - logger_File -INFO - user clicked on login button
+2021-07-12 19:38:34,532 - logger_File -INFO - user logged to myAccount Dashboard
+2021-07-12 19:38:35,431 - logger_File -INFO - Login to MyAccount with Multiple users   passed
+2021-07-12 20:58:25,606 - logger_File -INFO - Scenario Register new user to Retail Website Started
+2021-07-12 20:58:35,111 - logger_File -INFO - Retail Website is opened
+2021-07-12 20:58:35,993 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 20:58:38,776 - logger_File -INFO - Register new user to Retail Website   undefined
+2021-07-12 21:31:58,055 - logger_File -INFO - Scenario Register new user to Retail Website Started
+2021-07-12 21:32:04,954 - logger_File -INFO - Retail Website is opened
+2021-07-12 21:32:05,433 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 21:32:06,410 - logger_File -INFO - user clicked on Register option
+2021-07-12 21:32:07,422 - logger_File -INFO - User filled the information form
+2021-07-12 21:32:07,533 - logger_File -INFO - user accepted privacy and policy
+2021-07-12 21:32:08,236 - logger_File -INFO - user clicked on continue button
+2021-07-12 21:34:12,561 - logger_File -INFO - Scenario Register new user to Retail Website Started
+2021-07-12 21:34:20,550 - logger_File -INFO - Retail Website is opened
+2021-07-12 21:34:21,051 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 21:34:22,104 - logger_File -INFO - user clicked on Register option
+2021-07-12 21:34:23,199 - logger_File -INFO - User filled the information form
+2021-07-12 21:34:23,303 - logger_File -INFO - user accepted privacy and policy
+2021-07-12 21:34:23,798 - logger_File -INFO - user clicked on continue button
+2021-07-12 21:34:25,342 - logger_File -INFO - Register new user to Retail Website   failed
+2021-07-12 22:12:08,564 - logger_File -INFO - Scenario Register new user to Retail Website Started
+2021-07-12 22:12:14,748 - logger_File -INFO - Retail Website is opened
+2021-07-12 22:12:15,274 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 22:12:16,226 - logger_File -INFO - user clicked on Register option
+2021-07-12 22:12:17,031 - logger_File -INFO - User filled the information form
+2021-07-12 22:12:17,146 - logger_File -INFO - user accepted privacy and policy
+2021-07-12 22:12:17,826 - logger_File -INFO - user clicked on continue button
+2021-07-12 22:12:17,865 - logger_File -INFO - user Account has been created
+2021-07-12 22:12:19,861 - logger_File -INFO - Register new user to Retail Website   passed
+2021-07-12 23:09:31,225 - logger_File -INFO - Scenario Register new user to Retail Website Started
+2021-07-12 23:09:38,801 - logger_File -INFO - Retail Website is opened
+2021-07-12 23:09:39,218 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 23:09:40,354 - logger_File -INFO - user clicked on Register option
+2021-07-12 23:09:41,322 - logger_File -INFO - User filled the information form
+2021-07-12 23:09:41,423 - logger_File -INFO - user accepted privacy and policy
+2021-07-12 23:09:41,958 - logger_File -INFO - user clicked on continue button
+2021-07-12 23:10:36,236 - logger_File -INFO - Scenario Register new user to Retail Website Started
+2021-07-12 23:10:42,367 - logger_File -INFO - Retail Website is opened
+2021-07-12 23:10:43,072 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 23:10:43,840 - logger_File -INFO - user clicked on Register option
+2021-07-12 23:10:44,659 - logger_File -INFO - User filled the information form
+2021-07-12 23:10:44,756 - logger_File -INFO - user accepted privacy and policy
+2021-07-12 23:10:45,463 - logger_File -INFO - user clicked on continue button
+2021-07-12 23:10:45,518 - logger_File -INFO - user Account has been created
+2021-07-12 23:10:46,632 - logger_File -INFO - Register new user to Retail Website   passed
+2021-07-12 23:50:05,671 - logger_File -INFO - Scenario Register new user to Retail Website Started
+2021-07-12 23:50:12,880 - logger_File -INFO - Retail Website is opened
+2021-07-12 23:50:13,193 - logger_File -INFO - User clicked on MyAccount
+2021-07-12 23:50:13,970 - logger_File -INFO - user clicked on Register option
+2021-07-12 23:50:14,776 - logger_File -INFO - User filled the information form
+2021-07-12 23:50:14,885 - logger_File -INFO - user accepted privacy and policy
+2021-07-12 23:50:16,568 - logger_File -INFO - user clicked on continue button
+2021-07-12 23:50:16,616 - logger_File -INFO - user Account has been created
+2021-07-12 23:50:17,653 - logger_File -INFO - Register new user to Retail Website   passed
+2021-07-26 12:08:04,898 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-26 12:08:14,160 - logger_File -INFO - User verify all items are present in Desktops tab   undefined
+2021-07-26 12:15:16,856 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-26 12:15:25,891 - logger_File -INFO - Retail Website is opened
+2021-07-26 12:15:26,968 - logger_File -INFO - user click on Desktops tab
+2021-07-26 12:15:28,089 - logger_File -INFO - user click on show all Desktops options
+2021-07-26 12:15:28,240 - logger_File -INFO - User should see all items are present on Desktops
+2021-07-26 12:15:30,142 - logger_File -INFO - User verify all items are present in Desktops tab   passed
+2021-07-26 12:23:15,381 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-26 12:23:20,492 - logger_File -INFO - User verify all items are present in Desktops tab   undefined
+2021-07-27 17:31:07,870 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-27 17:31:20,950 - logger_File -INFO - Retail Website is opened
+2021-07-27 17:31:21,461 - logger_File -INFO - user click on Desktops tab
+2021-07-27 17:31:22,790 - logger_File -INFO - user click on show all Desktops options
+2021-07-27 17:31:22,986 - logger_File -INFO - User should see all items are present on Desktops
+2021-07-27 17:31:24,065 - logger_File -INFO - User verify all items are present in Desktops tab   passed
+2021-07-27 21:45:10,934 - logger_File -INFO - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-07-27 21:45:18,558 - logger_File -INFO - User add HP LP 3065  from Desktops tab to the cart   undefined
+2021-07-27 21:54:51,597 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-27 21:54:57,571 - logger_File -INFO - User verify all items are present in Desktops tab   undefined
+2021-07-27 21:57:21,152 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-27 21:57:27,099 - logger_File -INFO - User verify all items are present in Desktops tab   undefined
+2021-07-27 22:01:28,076 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-27 22:01:33,612 - logger_File -INFO - User verify all items are present in Desktops tab   undefined
+2021-07-27 22:02:53,462 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-27 22:02:58,869 - logger_File -INFO - User verify all items are present in Desktops tab   undefined
+2021-07-27 22:04:28,425 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-27 22:04:36,872 - logger_File -INFO - Retail Website is opened
+2021-07-27 22:04:37,530 - logger_File -INFO - user click on Desktops tab
+2021-07-27 22:04:38,479 - logger_File -INFO - user click on show all Desktops options
+2021-07-27 22:04:38,645 - logger_File -INFO - User should see all items are present on Desktops
+2021-07-27 22:04:39,708 - logger_File -INFO - User verify all items are present in Desktops tab   passed
+2021-07-27 22:06:34,313 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-27 22:06:41,323 - logger_File -INFO - Retail Website is opened
+2021-07-27 22:06:41,758 - logger_File -INFO - user click on Desktops tab
+2021-07-27 22:06:41,765 - logger_File -INFO - user click on show all Desktops options
+2021-07-27 22:06:42,273 - logger_File -INFO - User should see all items are present on Desktops
+2021-07-27 22:06:43,343 - logger_File -INFO - User verify all items are present in Desktops tab   passed
+2021-07-27 22:07:10,740 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-27 22:07:17,739 - logger_File -INFO - Retail Website is opened
+2021-07-27 22:07:18,166 - logger_File -INFO - user click on Desktops tab
+2021-07-27 22:07:19,352 - logger_File -INFO - User verify all items are present in Desktops tab   failed
+2021-07-27 22:07:53,616 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-27 22:08:01,350 - logger_File -INFO - Retail Website is opened
+2021-07-27 22:08:01,860 - logger_File -INFO - user click on Desktops tab
+2021-07-27 22:08:01,875 - logger_File -INFO - user click on show all Desktops options
+2021-07-27 22:08:02,316 - logger_File -INFO - User should see all items are present on Desktops
+2021-07-27 22:08:03,449 - logger_File -INFO - User verify all items are present in Desktops tab   passed
+2021-07-27 22:10:43,819 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2021-07-27 22:10:52,176 - logger_File -INFO - Retail Website is opened
+2021-07-27 22:10:53,064 - logger_File -INFO - user click on Desktops tab
+2021-07-27 22:10:54,737 - logger_File -INFO - user click on show all Desktops options
+2021-07-27 22:10:54,747 - logger_File -INFO - User should see all items are present on Desktops
+2021-07-27 22:10:55,830 - logger_File -INFO - User verify all items are present in Desktops tab   passed
+2021-07-27 23:05:56,571 - logger_File -INFO - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-07-27 23:06:08,130 - logger_File -INFO - Retail Website is opened
+2021-07-27 23:06:08,460 - logger_File -INFO - user click on Desktops tab
+2021-07-27 23:06:09,559 - logger_File -INFO - user clicked on show all Desktops options
+2021-07-27 23:06:11,684 - logger_File -INFO - User add HP LP 3065  from Desktops tab to the cart   failed
+2021-07-27 23:08:36,878 - logger_File -INFO - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-07-27 23:08:43,912 - logger_File -INFO - Retail Website is opened
+2021-07-27 23:08:44,195 - logger_File -INFO - user click on Desktops tab
+2021-07-27 23:08:50,542 - logger_File -INFO - user clicked on show all Desktops options
+2021-07-27 23:08:50,645 - logger_File -INFO - User clicked on ADD TO CART
+2021-07-27 23:08:52,996 - logger_File -INFO - User passed the select quantity
+2021-07-27 23:08:53,122 - logger_File -INFO - User clicked on ADD TO CART
+2021-07-27 23:09:04,065 - logger_File -INFO - User add HP LP 3065  from Desktops tab to the cart   failed
+2021-07-27 23:17:40,443 - logger_File -INFO - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-07-27 23:17:47,482 - logger_File -INFO - Retail Website is opened
+2021-07-27 23:17:47,810 - logger_File -INFO - user click on Desktops tab
+2021-07-27 23:17:48,553 - logger_File -INFO - user clicked on show all Desktops options
+2021-07-27 23:17:48,663 - logger_File -INFO - User clicked on ADD TO CART
+2021-07-27 23:17:52,071 - logger_File -INFO - User passed the select quantity
+2021-07-27 23:17:52,536 - logger_File -INFO - User clicked on ADD TO CART
+2021-07-27 23:18:03,638 - logger_File -INFO - User add HP LP 3065  from Desktops tab to the cart   failed
+2021-07-27 23:19:47,864 - logger_File -INFO - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-07-27 23:19:54,506 - logger_File -INFO - Retail Website is opened
+2021-07-27 23:19:54,823 - logger_File -INFO - user click on Desktops tab
+2021-07-27 23:19:55,847 - logger_File -INFO - user clicked on show all Desktops options
+2021-07-27 23:19:55,949 - logger_File -INFO - User clicked on ADD TO CART
+2021-07-27 23:19:58,201 - logger_File -INFO - User passed the select quantity
+2021-07-27 23:19:58,473 - logger_File -INFO - User clicked on ADD TO CART
+2021-07-27 23:19:58,480 - logger_File -INFO - Success message displayed
+2021-07-27 23:20:03,431 - logger_File -INFO - User add HP LP 3065  from Desktops tab to the cart   passed
+2021-07-27 23:20:32,668 - logger_File -INFO - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-07-27 23:20:40,524 - logger_File -INFO - Retail Website is opened
+2021-07-27 23:20:40,869 - logger_File -INFO - user click on Desktops tab
+2021-07-27 23:20:41,655 - logger_File -INFO - user clicked on show all Desktops options
+2021-07-27 23:20:41,743 - logger_File -INFO - User clicked on ADD TO CART
+2021-07-27 23:20:43,654 - logger_File -INFO - User passed the select quantity
+2021-07-27 23:20:44,067 - logger_File -INFO - User clicked on ADD TO CART
+2021-07-27 23:20:44,072 - logger_File -INFO - Success message displayed
+2021-07-27 23:20:45,280 - logger_File -INFO - User add HP LP 3065  from Desktops tab to the cart   passed
