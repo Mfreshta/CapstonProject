@@ -431,11 +431,35 @@ public class DestopsPageObject extends Base {
 	@FindBy(xpath = "//div[text()='Showing 1 to 12 of 12 (1 Pages)']")
 	private WebElement showingPages;
 	@FindBy(id = "input-quantity")
-	private WebElement hpLP3065DQuantity;
+	private WebElement Quantity;
 	@FindBy(id = "button-cart")
-	private WebElement hpLP3065DAddToCartLastTime;
-	@FindBy(id = "//div[@class='alert alert-success alert-dismissible']")
+	private WebElement AddToCartLastTime;
+	@FindBy(id = "//div[contains(text(),'Success: You have added ')]")
 	private WebElement successMessageIsDisplayed;
+	@FindBy(id = "input-option226")
+	private WebElement selectRed;
+	@FindBy(xpath = "//a[contains(text(),'Reviews (0)')]")
+	private WebElement reviewLink;
+	@FindBy(xpath = "//input[@id='input-name']")
+	private WebElement yourName;
+	@FindBy(xpath = "//textarea[@id='input-review']")
+	private WebElement yourReview;
+	@FindBy(xpath = "(//input[@name='rating'])[1]")
+	private WebElement ratingStar1;
+	@FindBy(xpath = "(//input[@name='rating'])[2]")
+	private WebElement ratingStar2;
+	@FindBy(xpath = "(//input[@name='rating'])[3]")
+	private WebElement ratingStar3;
+	@FindBy(xpath = "(//input[@name='rating'])[4]")
+	private WebElement ratingStar4;
+	@FindBy(xpath = "(//input[@name='rating'])[5]")
+	private WebElement ratingStar5;
+	@FindBy(xpath = "//button[@id='button-review']")
+	private WebElement continuesButton;
+	@FindBy(xpath = "//div[text()=' Thank you for your review. It has been submitted to the webmaster for approval.']")
+	private WebElement submittedReview;
+	
+	
 	
 	public void clickOnDesktopsTab() {
 		WebDriverUtility.clickOnElement(desktopsTab);
@@ -449,27 +473,91 @@ public class DestopsPageObject extends Base {
 		WebDriverUtility.screenShot();
 	}
 	
+	// Adding HP Laptop to Cart 
 	public void clickOnAddToCartHPLP3065() {
 		WebDriverUtility.clickOnElement(hpLP3065DAddToCart);
 	}
 	
-	public void userAddHpLP3065DQuantity() {
-		WebDriverUtility.clearTextUsingSendKeys(hpLP3065DQuantity);
+	public void userAddQuantity() {
+		WebDriverUtility.clearTextUsingSendKeys(Quantity);
 	}
 	
-	public void clickOnAddToCartHPLP3065LastTime() {
-		WebDriverUtility.clickOnElement(hpLP3065DAddToCartLastTime);
+	public void clickOnAddToCartLastTime() {
+		WebDriverUtility.clickOnElement(AddToCartLastTime);
 	}
 	
-	public void UserSeeSuccessMessage() {
-		WebDriverUtility.isElementDisplayed(successMessageIsDisplayed);
-		
+	public String UserSeeSuccessMessage() {
+		String message =  successMessageIsDisplayed.getText();
+		return message;
 	}
 	
 	
+	// Add to cart Canon
+	public void clickAddToCartCanon() {
+		WebDriverUtility.clickOnElement(canonEOS5DAddToCart);
+	}
 	
+	public void userSelectRedColorFromDropDown() {
+		WebDriverUtility.clearTextUsingSendKeys(selectRed);
+	}
+
+	public void clickOnCanon() {
+		WebDriverUtility.clickOnElement(canonEOS5DImage);
+	}
 	
+	// Review Methods For Canon
+	public void clickOnReviewLink() {
+		WebDriverUtility.clickOnElement(reviewLink);
+	}
+	public void enterYourName(String yName) {
+		WebDriverUtility.enterValue(yourName, yName);
+	}
 	
+	public void enterYourReview(String yReview) {
+		WebDriverUtility.enterValue(yourReview, yReview);
+	}
+//	public void choseRating(String subscribeValue) {
+//		if (subscribeValue.equalsIgnoreCase("yes")) {
+//		if (!ratingStar1.isSelected()) {
+//			WebDriverUtility.clickOnElement(ratingStar1);
+//		}else if (!ratingStar2.isSelected()) {
+//			WebDriverUtility.clickOnElement(ratingStar2);
+//		}else if(!ratingStar3.isSelected()) {
+//			WebDriverUtility.clickOnElement(ratingStar3);
+//		}else if (!ratingStar4.isSelected()) {
+//			WebDriverUtility.clickOnElement(ratingStar4);
+//		}else if (!ratingStar5.isSelected()) {
+//			WebDriverUtility.clickOnElement(ratingStar5);
+//		}
+//		}
+//		}
+
+	public void choseRating(String subscribeValue) {
+		 
+			if (!ratingStar1.isSelected()) {
+				WebDriverUtility.clickOnElement(ratingStar1);
+			}else if (!ratingStar2.isSelected()) {
+				WebDriverUtility.clickOnElement(ratingStar2);
+			}else if(!ratingStar3.isSelected()) {
+				WebDriverUtility.clickOnElement(ratingStar3);
+			}else if (!ratingStar4.isSelected()) {
+				WebDriverUtility.clickOnElement(ratingStar4);
+			}else if (!ratingStar5.isSelected()) {
+				WebDriverUtility.clickOnElement(ratingStar5);
+			
+			}		
+	}
+	
+	public void UserClickOnContinueButton () {
+		WebDriverUtility.clickOnElement(continuesButton);
+	}
+	public String UserShouldSeeReviewMessage() {
+		String message = submittedReview.getText();
+		return message;
+	}
+
+
+
 	
 	
 	

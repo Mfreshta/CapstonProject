@@ -21,7 +21,7 @@ Scenario: Login to MyAccount
 	# Cucumber provides scenario Outline with Examples keyword to do data Driven Testing
 	
   # Below is the tag @test
-@test
+@LoginMultipleAccount
 Scenario Outline: Login to MyAccount with Multiple users
 	
 	

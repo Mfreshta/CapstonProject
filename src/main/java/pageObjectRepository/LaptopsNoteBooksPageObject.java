@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import core.Base;
+import utilites.WebDriverUtility;
 
 public class LaptopsNoteBooksPageObject extends Base {
 
@@ -12,12 +13,18 @@ public class LaptopsNoteBooksPageObject extends Base {
 		PageFactory.initElements(driver, this);
 	}
 
+	// Laptops & NoteBooks
+	@FindBy(xpath = "//a[text()='Laptops & Notebooks']")
+	private WebElement lapTopsNoteBooksTab;
+	// Show All Laptops & NoteBooks
+	@FindBy(xpath = "//a[contains(text(),'Show All Laptops & Notebooks')]")
+	private WebElement showAllLapTopsNoteBooks;
 	// Home Page Button
 	@FindBy(xpath = "//i[@class='fa fa-home']")
 	private WebElement homePage;
 	// LapTops & NoteBook
 	@FindBy(xpath = "(//a[text()='Laptops & Notebooks'])[2]")
-	private WebElement lapTopsNoteBooks;
+	private WebElement lapTopsNoteBooks2;
 	// desktops (13)
 	@FindBy(xpath = "//a[contains(text(),'Desktops (13)')]")
 	private WebElement desktops;
@@ -119,46 +126,48 @@ public class LaptopsNoteBooksPageObject extends Base {
 	private WebElement hpLP3065CompareThisProduct;
 	// MacBook image
 	@FindBy(xpath = "//img[@title='MacBook']")
-	private WebElement MacBookImage;
+	private WebElement macBook;
 	// MacBook Name
 	@FindBy(xpath = "//a[text()='MacBook']")
-	private WebElement MacBookName;
+	private WebElement macBookName;
 	// MacBook Information
 	@FindBy(xpath = "//p[contains(text(),'Intel Core 2 Duo processor')]")
-	private WebElement MacBookDescription;
+	private WebElement macBookDescription;
 	// MacBook Price
 	@FindBy(xpath = "(//p[@class='price'])[2]")
-	private WebElement MacBookPrice;
+	private WebElement macBookPrice;
 	// MacBook EX Tax
 	@FindBy(xpath = "//span[contains(text(),'Ex Tax: $500.00')]")
-	private WebElement MacBookEXTax;
+	private WebElement macBookEXTax;
 	// MacBook ADD to Cart Sign
 	@FindBy(xpath = "(//i[@class='fa fa-shopping-cart'])[4]")
-	private WebElement MacBookAddToCartSign;
+	private WebElement macBookAddToCartSign;
 	// MacBook ADD to Cart
-	@FindBy(xpath = "(//span[text()='Add to Cart'])[2]")
-	private WebElement MacBookAddToCart;
+//	@FindBy(xpath = "(//span[text()='Add to Cart'])[2]")
+//	private WebElement macBookAddToCart;
+	@FindBy(xpath = "//button[text()='Add to Cart']")
+	private WebElement macBookAddToCart;
 	// MacBook ADD to WishList
 	@FindBy(xpath = "(//i[@class='fa fa-heart'])[3]")
-	private WebElement MacBookAddToWishList;
+	private WebElement macBookAddToWishList;
 	// MacBook Compare This Product
 	@FindBy(xpath = "(//i[@class='fa fa-exchange'])[2]")
-	private WebElement MacBookCompareThisProduct;
+	private WebElement macBookCompareThisProduct;
 	// MacBook Air image
 	@FindBy(xpath = "//img[@title='MacBook Air']")
-	private WebElement MacBookAirImage;
+	private WebElement macBookAirImage;
 	// MacBook Air Name
 	@FindBy(xpath = "//a[contains(text(),'MacBook Air')]")
-	private WebElement MacBookAirName;
+	private WebElement macBookAirName;
 	// MacBook Air Information
 	@FindBy(xpath = "//p[contains(text(),'MacBook Air is ultrathin, ultraportable, and ultra')]")
-	private WebElement MacBookAirDescription;
+	private WebElement macBookAirDescription;
 	// MacBook Air Price
 	@FindBy(xpath = "(//p[@class='price'])[3]")
-	private WebElement MacBookAirPrice;
+	private WebElement macBookAirPrice;
 	// MacBook Air EX Tax
 	@FindBy(xpath = "(//span[contains(text(),'Ex Tax: $1,000.00')])[1]")
-	private WebElement MacBookAirEXTax;
+	private WebElement macBookAirEXTax;
 	// MacBook Air ADD to Cart Sign
 	@FindBy(xpath = "(//i[@class='fa fa-shopping-cart'])[5]")
 	private WebElement MacBookAirAddToCartSign;
@@ -173,7 +182,7 @@ public class LaptopsNoteBooksPageObject extends Base {
 	private WebElement MacBookAirCompareThisProduct;
 	// MacBook Pro image
 	@FindBy(xpath = "//img[@title='MacBook Pro']")
-	private WebElement macBookProImage;
+	private WebElement macBookPro;
 	// MacBook Pro Name
 	@FindBy(xpath = "//a[contains(text(),'MacBook Pro')]")
 	private WebElement macBookProName;
@@ -228,7 +237,105 @@ public class LaptopsNoteBooksPageObject extends Base {
 	// Showing 1 to 5 of 5 (1 Pages)
 	@FindBy(xpath = "//div[contains(text(),'Showing 1 to 5 of 5 (1 Pages)')]")
 	private WebElement showingPages;
-
+	// Showing 1 to 5 of 5 (1 Pages)
+	@FindBy(xpath = "//div[contains(text(),'Success: You have added ')]")
+	private WebElement SuccessMessage;
+	// Showing 1 to 5 of 5 (1 Pages)
+	@FindBy(xpath = "(//button[@type='button'])[5]")
+	private WebElement itemCart;
+	// Showing 1 to 5 of 5 (1 Pages)
+	@FindBy(xpath = "//button[@title='Remove']")
+	private WebElement removeItem;
+	// Showing 1 to 5 of 5 (1 Pages)
+	@FindBy(xpath = "//a[contains(text(),'product comparison')]")
+	private WebElement productComparisonLink;
+	@FindBy(xpath = "//div[contains(text(),' You must ')]")
+	private WebElement userMustLoginOrCreateAccount;
+	@FindBy(xpath = "//h2[contains(text(),'$2,000.00')]")
+	private WebElement macBookProTagPrice;
+	
+	
+	
+	
+	public void clickOnLaptopAndNoteBooksTab(){
+		WebDriverUtility.clickOnElement(lapTopsNoteBooksTab);
+	}
+	
+	public void clickOnShowAllLaptopAndNoteBooksOption(){
+		WebDriverUtility.clickOnElement(showAllLapTopsNoteBooks);
+	}
+	public void clickOnMacBookItem(){
+		WebDriverUtility.clickOnElement(macBook);
+	}
+	public void clickOnAddToCartButton(){
+		WebDriverUtility.clickOnElement(macBookAddToCart);
+	}
+	public String UserSeeSuccessMessage(){
+		String message =SuccessMessage.getText();
+		return message;
+	}
+	public String userShouldSeeOneItemInTheCart(){
+		String message = itemCart.getText();
+		return message;
+	}
+	public void clickOnCartOption(){
+		WebDriverUtility.clickOnElement(itemCart);
+	}
+	public void clickOnRedButtonToRemoveItemFromCart(){
+		WebDriverUtility.clickOnElement(removeItem);
+	}
+	
+	public String itemShouldBeRemovedFromTheCart(){
+		String message = itemCart.getText();
+		return message;
+	}
+	
+	public void clickOnMacBookProductComparison(){
+		WebDriverUtility.clickOnElement(macBookCompareThisProduct);
+	}
+	public void clickOnMacBookAirProductComparison(){
+		WebDriverUtility.clickOnElement(MacBookAirCompareThisProduct);
+	}
+	public void userShouldSeeAMessageYouHvaeAddedMacBookToComparison(){
+		WebDriverUtility.getText(SuccessMessage);
+	}
+	public void clickOnProductComparisonLink(){
+		WebDriverUtility.clickOnElement(productComparisonLink);
+	}
+	public void userShouldSeeProductComparisonChart(){
+		WebDriverUtility.screenShot();
+	}
+	
+	public void clickOnAddSonyVAIOToWishList(){
+		WebDriverUtility.clickOnElement(sonyVAIOAddToWishList);
+	}
+	public void userMustLoginOrCreateAcoountMesssage(){
+		WebDriverUtility.getText(userMustLoginOrCreateAccount);
+	}
+	
+	public void clickOnMacBookPro(){
+		WebDriverUtility.clickOnElement(macBookPro);
+	}
+	
+	public String userMustShouldSeeThePriceTagIsPresent(){
+		String message  = macBookProTagPrice.getText();
+		return message;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

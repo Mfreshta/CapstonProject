@@ -387,12 +387,40 @@ public class HomePageObject extends Base {
 	@FindBy(xpath = "//p[@xpath='1']")
 	private WebElement poweredByOpenCart;
 	
+	@FindBy(xpath = "//strong[contains(text(),'€')]")
+	private WebElement currencyChanged;
 	
-
+	@FindBy(xpath = "//p[contains(text(),'Your shopping cart is empty!')]")
+	private WebElement shoppingCartMessage;
 	
 	
 	
 	
+	public void clickOnCurrency() {
+		WebDriverUtility.clickOnElement(currency);
+	}
+	
+	public void userSelectEuroFromDropDown() {
+		WebDriverUtility.clickOnElement(euro);
+	}
+	
+	public String currencyValueIsChanged() {
+		String message = currencyChanged.getText();
+		return message;
+		 
+	}
+	
+	
+	//*************************************************************************
+	
+	// Empty SHopping cart
+	public void clickOnShoppingCart() {
+		WebDriverUtility.clickOnElement(itemCart);
+	}
+	public String yourShoppingCartIsEmpty() {
+		String message = shoppingCartMessage.getText();
+		return message;
+	}
 	
 	
 	

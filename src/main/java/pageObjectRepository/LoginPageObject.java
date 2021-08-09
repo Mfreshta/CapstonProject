@@ -34,6 +34,57 @@ public class LoginPageObject extends Base {
 	@FindBy(xpath ="//input[@value='Login']")
 	private WebElement loginButton;
 	
+	@FindBy(xpath ="//a[contains(text(),'Register for an affiliate account')]")
+	private WebElement registerAffiliateAccount;
+	
+	@FindBy(id ="input-company")
+	private WebElement companyName;
+	@FindBy(xpath ="//input[@id='input-website']")
+	private WebElement webSite;
+	@FindBy(id ="input-tax")
+	private WebElement taxID;
+	@FindBy(xpath ="//input[@value='cheque']")
+	private WebElement cheque;
+	@FindBy(xpath ="//input[@value='paypal']")
+	private WebElement payPal;
+	@FindBy(xpath ="//input[@value='bank']")
+	private WebElement bankTransfer;
+	@FindBy(id ="input-bank-name")
+	private WebElement bankName;
+	@FindBy(id ="input-bank-branch-number")
+	private WebElement branchNumber;
+	@FindBy(id ="input-bank-swift-code")
+	private WebElement swiftCode;
+	@FindBy(id ="input-bank-account-name")
+	private WebElement accountNumber;
+	@FindBy(id ="input-bank-account-number")
+	private WebElement accountName;
+	
+	
+	@FindBy(id ="input-cheque")
+	private WebElement chequePayeeName;
+	@FindBy(xpath ="//input[@name='agree']")
+	private WebElement aboutUs;
+	@FindBy(xpath ="//input[@value='Continue']")
+	private WebElement continueButton;
+	
+	@FindBy(xpath ="//div[text()=' Success: Your account has been successfully updated.']")
+	private WebElement successMessage;
+	
+	@FindBy(xpath ="//*[contains(text(),'Edit your affiliate information')]")
+	private WebElement editYourAffiliateInformation;
+	
+	// edit account information
+	@FindBy(xpath ="//a[contains(text(),'Edit your account information')]")
+	private WebElement editYourAccountInformation;
+	@FindBy(id ="input-firstname")
+	private WebElement firstNameField;
+	@FindBy(id ="input-lastname")
+	private WebElement lastNamefield;
+
+	@FindBy(id ="input-telephone")
+	private WebElement telePhoneNumber;
+	
 	
 	public void clickOnMyAccount() {
 		WebDriverUtility.clickOnElement(myAccount);
@@ -44,6 +95,7 @@ public class LoginPageObject extends Base {
 	}
 	
 	public void enterEmail(String email) {
+		WebDriverUtility.clearText(emailField);
 		WebDriverUtility.enterValue(emailField, email);
 	}
 	
@@ -53,6 +105,91 @@ public class LoginPageObject extends Base {
 	
 	public void clickOnLoginButton() {
 		WebDriverUtility.clickOnElement(loginButton);
+	}
+	
+	// Register wit Affiliate Account
+	public void clickOnRegisterAffiliateAccount() {
+		WebDriverUtility.clickOnElement(registerAffiliateAccount);
+	}
+	
+	public void enterCompanyName(String cName) {
+		WebDriverUtility.enterValue(companyName, cName);
+	}
+	
+	public void enterWebSite(String wSite) {
+		WebDriverUtility.enterValue(webSite, wSite);
+	}
+	
+	public void enterTaxID(String tID) {
+		WebDriverUtility.enterValue(taxID, tID);
+	}
+	
+	public void selectCheckBox() {
+		WebDriverUtility.clickOnElement(cheque);
+	}
+	
+	public void enterChequePayeeName(String cpName) {
+		WebDriverUtility.enterValue(chequePayeeName, cpName);
+	}
+	
+	public void ClickOnAboutUs() {
+		WebDriverUtility.clickOnElement(aboutUs);
+	}
+	
+	public void ClickOnContinueButton() {
+		WebDriverUtility.clickOnElement(continueButton);
+	}
+	
+	public String UserShouldSeeSuccessMessage() {
+		String message = successMessage.getText();
+		return message;
+	}
+	
+	
+	
+	// Edit Your Affiliate information from Cheque payment to Bank Transfer
+	
+	public void clickOnEditYourAffiliateInformation() {
+		WebDriverUtility.clickOnElement(editYourAffiliateInformation);
+	}
+	
+	public void selectCheckBoxBank() {
+		WebDriverUtility.clickOnElement(bankTransfer);
+	}
+	public void enterBankName(String bName) {
+		WebDriverUtility.enterValue(bankName, bName);
+	}
+	public void enterBranchNumber(String bNumber) {
+		WebDriverUtility.enterValue(branchNumber, bNumber);
+	}
+	public void enterSwiftCode(String sCode) {
+		WebDriverUtility.enterValue(swiftCode, sCode);
+	}
+	public void enterAccountName(String aName) {
+		WebDriverUtility.enterValue(accountName, aName);
+	}
+	public void enterAccountNumber(String aNumber) {
+		WebDriverUtility.enterValue(accountNumber, aNumber);
+	}
+	
+	
+	
+	// Edit Account information
+	public void clickOnEditAccountInformation() {
+		WebDriverUtility.clickOnElement(editYourAccountInformation);
+	}
+	public void enterFirstName(String fName) {
+		WebDriverUtility.clearText(firstNameField);
+		WebDriverUtility.enterValue(firstNameField, fName);
+	}
+	public void enterLastName(String lName) {
+		WebDriverUtility.clearText(lastNamefield);
+		WebDriverUtility.enterValue(lastNamefield, lName);
+	}
+
+	public void enterTelePhoneNumber(String tNumber) {
+		WebDriverUtility.clearText(telePhoneNumber);
+		WebDriverUtility.enterValue(telePhoneNumber, tNumber);
 	}
 	
 	
