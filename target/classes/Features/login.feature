@@ -7,7 +7,7 @@ Background:
 	Given User is on Retail Website
 
 	# Below is the tag @login
-@login 
+@login @RegressionTest @SmokeTest
 Scenario: Login to MyAccount
 
 	

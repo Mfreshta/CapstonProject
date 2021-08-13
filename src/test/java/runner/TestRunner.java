@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		//.//src//test//resource//Features
 		features ="classpath:Features",// features tells cucumber options where feature files are located
 		glue = "stepDefinitions",
-		tags = {"@EditAffiliate"},
+		tags = {"@@SmokeTest"},
 		//glue tells cucubmer options where step Definition classes located
 		dryRun= false, // dry run if sets to false checks if all steps in feature files has step
 		monochrome = true, // if set to true, makes the console output readable.
