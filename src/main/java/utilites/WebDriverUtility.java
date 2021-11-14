@@ -110,7 +110,6 @@ public class WebDriverUtility extends Base {
 	}
 
 	public static void scrollPageDownWithJS() {
-
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
 		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 

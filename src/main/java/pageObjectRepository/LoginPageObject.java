@@ -19,6 +19,7 @@ public class LoginPageObject extends Base {
 	//PageFactory provides @FindBy annotation to find UI elements 
 	// driver.findElement(by.id('123)); 
 	// @FindBy(id ='123')
+	
 	@FindBy(xpath = "//span[contains(text(),'My Account')]")
 	private WebElement myAccount;
 	
@@ -107,6 +108,34 @@ public class LoginPageObject extends Base {
 		WebDriverUtility.clickOnElement(loginButton);
 	}
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	// Register wit Affiliate Account
 	public void clickOnRegisterAffiliateAccount() {
 		WebDriverUtility.clickOnElement(registerAffiliateAccount);
@@ -172,6 +201,8 @@ public class LoginPageObject extends Base {
 		WebDriverUtility.enterValue(accountNumber, aNumber);
 	}
 	
+	
+
 	
 	
 	// Edit Account information

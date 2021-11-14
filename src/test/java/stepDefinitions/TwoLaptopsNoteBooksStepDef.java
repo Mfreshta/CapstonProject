@@ -2,16 +2,17 @@ package stepDefinitions;
 
 import org.junit.Assert;
 
+
 import core.Base;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageObjectRepository.LaptopsNoteBooksPageObject;
-import pageObjectRepository.ShaiqLaptopsNoteBooksPageObject;
+import pageObjectRepository.TwoLaptopsNoteBooksPageObject;
 import utilites.WebDriverUtility;
 
-public class ShaiqLaptopsNoteBooksStepDef extends Base {
+public class TwoLaptopsNoteBooksStepDef extends Base {
 	
-	ShaiqLaptopsNoteBooksPageObject laptopNoteBook = new ShaiqLaptopsNoteBooksPageObject();
+	TwoLaptopsNoteBooksPageObject laptopNoteBook = new TwoLaptopsNoteBooksPageObject();
 	
 	@When("^User click on Laptop &NoteBook tab$")
 	public void user_click_on_Laptop_NoteBook_tab()  {

@@ -1181,3 +1181,64 @@
 2021-08-09 18:48:47,171 - logger_File -INFO - user clicked on login button
 2021-08-09 18:48:50,300 - logger_File -INFO - user logged to myAccount Dashboard
 2021-08-09 18:49:01,296 - logger_File -INFO - Edit your affiliate information from Cheque payment method to Bank Transfer   failed
+2021-08-29 19:15:01,408 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2021-08-29 19:15:16,661 - logger_File -INFO - Retail Website is opened
+2021-08-29 19:15:17,031 - logger_File -INFO - User clicked on MyAccount
+2021-08-29 19:15:17,437 - logger_File -INFO - User Clicked on Login
+2021-08-29 19:15:17,660 - logger_File -INFO - user entered email
+2021-08-29 19:15:17,800 - logger_File -INFO - user entered password
+2021-08-29 19:15:18,326 - logger_File -INFO - user clicked on login button
+2021-08-29 19:15:21,473 - logger_File -INFO - user logged to myAccount Dashboard
+2021-08-29 19:15:21,849 - logger_File -INFO - User clicked on 'Register for an Affiliate Account'
+2021-08-29 19:15:22,972 - logger_File -INFO - Register as an Affiliate user with Cheque Payment Method   failed
+2021-08-29 19:17:40,069 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2021-08-29 19:17:46,639 - logger_File -INFO - Retail Website is opened
+2021-08-29 19:17:47,013 - logger_File -INFO - User clicked on MyAccount
+2021-08-29 19:17:47,409 - logger_File -INFO - User Clicked on Login
+2021-08-29 19:17:47,661 - logger_File -INFO - user entered email
+2021-08-29 19:17:47,793 - logger_File -INFO - user entered password
+2021-08-29 19:17:48,349 - logger_File -INFO - user clicked on login button
+2021-08-29 19:17:51,498 - logger_File -INFO - user logged to myAccount Dashboard
+2021-08-29 19:17:51,867 - logger_File -INFO - User clicked on 'Register for an Affiliate Account'
+2021-08-29 19:17:52,911 - logger_File -INFO - Register as an Affiliate user with Cheque Payment Method   failed
+2021-08-29 19:22:50,032 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2021-08-29 19:22:56,669 - logger_File -INFO - Retail Website is opened
+2021-08-29 19:23:08,055 - logger_File -INFO - Register as an Affiliate user with Cheque Payment Method   failed
+2021-08-29 19:24:49,525 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2021-08-29 19:24:55,659 - logger_File -INFO - Retail Website is opened
+2021-08-29 19:24:56,033 - logger_File -INFO - User clicked on MyAccount
+2021-08-29 19:24:56,410 - logger_File -INFO - User Clicked on Login
+2021-08-29 19:24:56,628 - logger_File -INFO - user entered email
+2021-08-29 19:24:56,760 - logger_File -INFO - user entered password
+2021-08-29 19:24:57,303 - logger_File -INFO - user clicked on login button
+2021-08-29 19:25:00,443 - logger_File -INFO - user logged to myAccount Dashboard
+2021-08-29 19:25:00,976 - logger_File -INFO - User clicked on 'Register for an Affiliate Account'
+2021-08-29 19:25:01,996 - logger_File -INFO - Register as an Affiliate user with Cheque Payment Method   failed
+2021-09-01 21:56:06,764 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-09-01 21:56:17,127 - logger_File -INFO - Login to MyAccount   undefined
+2021-09-01 21:56:17,165 - logger_File -INFO - Scenario Login to MyAccount with Multiple users Started
+2021-09-01 21:56:21,113 - logger_File -INFO - Login to MyAccount with Multiple users   undefined
+2021-09-01 21:56:21,132 - logger_File -INFO - Scenario Login to MyAccount with Multiple users Started
+2021-09-01 21:56:24,637 - logger_File -INFO - Login to MyAccount with Multiple users   undefined
+2021-09-01 21:56:24,655 - logger_File -INFO - Scenario Login to MyAccount with Multiple users Started
+2021-09-01 21:56:28,947 - logger_File -INFO - Login to MyAccount with Multiple users   undefined
+2021-09-07 15:31:53,142 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-09-07 15:32:07,075 - logger_File -INFO - Login to MyAccount   undefined
+2021-09-09 21:10:54,760 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-09-09 21:11:09,316 - logger_File -INFO - Retail Website is opened
+2021-09-09 21:11:10,098 - logger_File -INFO - User clicked on MyAccount
+2021-09-09 21:11:10,578 - logger_File -INFO - User Clicked on Login
+2021-09-09 21:11:10,808 - logger_File -INFO - user entered email
+2021-09-09 21:11:10,928 - logger_File -INFO - user entered password
+2021-09-09 21:11:11,848 - logger_File -INFO - user clicked on login button
+2021-09-09 21:11:17,146 - logger_File -INFO - user logged to myAccount Dashboard
+2021-09-09 21:11:17,980 - logger_File -INFO - Login to MyAccount   passed
+2021-10-18 22:44:20,406 - logger_File -INFO - Scenario Login to MyAccount Started
+2021-10-18 22:44:42,918 - logger_File -INFO - Retail Website is opened
+2021-10-18 22:44:43,984 - logger_File -INFO - User clicked on MyAccount
+2021-10-18 22:44:44,484 - logger_File -INFO - User Clicked on Login
+2021-10-18 22:44:44,870 - logger_File -INFO - user entered email
+2021-10-18 22:44:45,010 - logger_File -INFO - user entered password
+2021-10-18 22:44:46,459 - logger_File -INFO - user clicked on login button
+2021-10-18 22:44:51,624 - logger_File -INFO - user logged to myAccount Dashboard
+2021-10-18 22:44:52,811 - logger_File -INFO - Login to MyAccount   passed

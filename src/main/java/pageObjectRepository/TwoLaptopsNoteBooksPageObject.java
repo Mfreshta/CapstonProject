@@ -7,9 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import core.Base;
 import utilites.WebDriverUtility;
 
-public class ShaiqLaptopsNoteBooksPageObject extends Base {
+public class TwoLaptopsNoteBooksPageObject extends Base {
 
-	public ShaiqLaptopsNoteBooksPageObject() {
+	public TwoLaptopsNoteBooksPageObject() {
 		PageFactory.initElements(driver, this);
 	}
 
